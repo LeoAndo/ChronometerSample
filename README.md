@@ -1,7 +1,7 @@
 # Chronometerについて
 
 [Chronometer](https://developer.android.com/reference/android/widget/Chronometer)は、タイマー機能を実装するためのクラス。</br>
-Chronometerは内部では、[SystemClock#elapsedRealtime()](https://developer.android.com/reference/android/os/SystemClock#elapsedRealtime())とsetBaseで設定した値`SystemClock#elapsedRealtime()` の差を表示している。<br>
+Chronometerは内部では、[SystemClock#elapsedRealtime()](https://developer.android.com/reference/android/os/SystemClock#elapsedRealtime())とsetBaseで設定した値(`SystemClock#elapsedRealtime()`) の差を表示している。<br>
 
 インスタンス生成時に[setBase](https://developer.android.com/reference/android/widget/Chronometer#setBase(long))が必ず呼ばれ[基準時間の設定](https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/android/widget/Chronometer.java;l=128?q=long%20seconds%20%3D%20mCountDown%20&ss=android%2Fplatform%2Fsuperproject:frameworks%2F)を行っている。<br>
 
