@@ -10,8 +10,8 @@
         android:id="@+id/activityBootTimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:format="Elapsed time after starting Activity %s sec. "
         android:layout_marginTop="30dp"
+        android:format="Elapsed time after starting Activity %s sec. "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,5 +54,36 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonStop" />
+
+    <TextView
+        android:id="@+id/textContentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReset"
+        tools:text="14秒" />
+
+    <Button
+        android:id="@+id/buttonContentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="getContentDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textContentDescription" />
+
+    <Button
+        android:id="@+id/buttonStartYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Start Youtube"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
