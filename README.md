@@ -8,7 +8,7 @@ Chronometerは内部では、[SystemClock#elapsedRealtime()](https://developer.a
 [Chronometerは１秒間隔のタイマー通知しか行えない](https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/android/widget/Chronometer.java;l=339?q=long%20seconds%20%3D%20mCountDown%20&ss=android%2Fplatform%2Fsuperproject:frameworks%2F)<br>
 
 [isFinalCountDown](https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/android/widget/Chronometer.java;l=159?q=long%20seconds%20%3D%20mCountDown%20&ss=android%2Fplatform%2Fsuperproject:frameworks%2F)というメソッドがある。<br>
-Googleの人がギャグで入れてたメソッドと思われる。<br>
+Googleのお茶目なエンジニアが入れたと思われる機能. youtubeアプリを起動して、「The Final Countdown」を流すだけ<br>
 
 ## タイマーの経過時間(ミリ秒)の取得　スニペット
 ```
