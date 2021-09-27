@@ -1,3 +1,9 @@
+# 開発環境
+
+<img width="686" alt="スクリーンショット 2021-09-27 15 58 09" src="https://user-images.githubusercontent.com/16476224/134859783-1ef8cf7e-2ca2-4519-afa0-5a53a4435fec.png">
+
+
+
 # Chronometerについて
 
 [Chronometer](https://developer.android.com/reference/android/widget/Chronometer)は、タイマー機能を実装するためのクラス。</br>
